@@ -7,4 +7,4 @@ import(
 func Say(str string) string {
 	now := time.Now().String()
 	return str + string(now);
-}z
+}
