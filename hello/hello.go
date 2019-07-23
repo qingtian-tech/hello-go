@@ -6,5 +6,5 @@ import(
 
 func Say(str string) string {
 	now := time.Now().String()
-	return str + string(now);
+	return "v2:" + str + string(now);
 }
